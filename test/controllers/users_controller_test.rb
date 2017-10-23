@@ -13,8 +13,7 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
   end  
   
   test "should get new" do
-    get signup_path    
-    get users_new_url
+    get signup_path
     assert_response :success
   end
 
