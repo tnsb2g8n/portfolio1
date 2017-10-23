@@ -1,0 +1,161 @@
+[33mcommit 556ffe168e0485ef7338d884a5cb62d1d9075f43[m[33m ([m[1;36mHEAD -> [m[1;32muser-microposts[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mheroku/master[m[33m, [m[1;32mpassword-reset[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Mon Oct 16 22:10:52 2017 +0000
+
+    Add password reset
+
+[33mcommit 4d0f0c980441e3de336c9ef61bf629133ed1f352[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sun Oct 15 22:13:35 2017 +0000
+
+    r12.3
+
+[33mcommit 2d99fb90925fc4732dc07a5728c6743254343995[m[33m ([m[1;32maccount-activation[m[33m)[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sun Oct 15 10:18:44 2017 +0000
+
+    Add account activation
+
+[33mcommit 0fa92559f354e101e1673b00cf69da5f87831978[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sun Oct 15 09:47:01 2017 +0000
+
+    r11.35
+
+[33mcommit b92607249a715c7d9d50ace520bd62bcef837981[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sun Oct 15 09:44:07 2017 +0000
+
+    r11.3.3
+
+[33mcommit ec0a0f407fb0242362a8c7d0267433776231b724[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sun Oct 15 09:39:16 2017 +0000
+
+    r11.3.2
+
+[33mcommit 6fbea08157d7a9662fcf1f33611851534518c81a[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sun Oct 15 09:24:27 2017 +0000
+
+    r11.2.4
+
+[33mcommit ed443f2a2f99b668464ad47f7363a5a873c33dd1[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sun Oct 15 08:41:33 2017 +0000
+
+    r11.2.2
+
+[33mcommit cc0c057db8cee9b926ef95541ac589a04b69e865[m[33m ([m[1;32mupdating-users[m[33m)[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sun Oct 15 06:35:59 2017 +0000
+
+    Finish user edit, update, index, and destroy actions
+
+[33mcommit 00df90f7268647987f018a176938c6ba4f665ca0[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sun Oct 15 06:13:31 2017 +0000
+
+    r10.4
+
+[33mcommit ee763161692027a89319d8655bdfa3bef28024b3[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sun Oct 15 06:07:35 2017 +0000
+
+    r10.3.5
+
+[33mcommit 3f86afd4f8e073e8a0c638b3ca5a2962a441c6fc[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sun Oct 15 06:04:55 2017 +0000
+
+    rails10.3.4
+
+[33mcommit bed948f4dd7e0f25f9d2e083d8970d57fa642047[m[33m ([m[1;32madvanced-login[m[33m)[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sun Oct 15 02:28:22 2017 +0000
+
+    Implement advanced login
+
+[33mcommit d27336693b04abc2afe218a59203a177a0016b62[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sat Oct 14 11:56:00 2017 +0000
+
+    Implement basic login
+
+[33mcommit ef6048cf3d190de13f5cd6f52dfad0e7d24adb7b[m[33m ([m[1;32mbasic-login[m[33m)[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sat Oct 14 11:39:26 2017 +0000
+
+    Implement basic login
+
+[33mcommit 2027fe5364f03048a6e18e0ec261707dbad3f411[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sat Oct 14 06:48:42 2017 +0000
+
+    Use SSL and the Puma webserver in production
+
+[33mcommit 81e01d31a5020d90d678e7d281e8478a05060bbc[m[33m ([m[1;32msign-up[m[33m)[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Sat Oct 14 06:26:09 2017 +0000
+
+    Finish user signup
+
+[33mcommit aeea2d4107ea8ef0f393058fa5630b4b9f705cec[m[33m ([m[1;32mmodeling-users[m[33m)[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Thu Oct 12 22:21:31 2017 +0000
+
+    Make a basic User model (including secure passwords)
+
+[33mcommit c7a9bfd5a94008ce466a8e387f0f9f19c58c4a8c[m[33m ([m[1;32mfilling-in-layout[m[33m)[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Wed Oct 11 22:06:21 2017 +0000
+
+    Finish layout and routes
+
+[33mcommit 85bcc3415dabb5320d2eb0bb5bbe2930d2ab0cac[m[33m ([m[1;32mrails-flavored-ruby[m[33m)[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Tue Oct 10 21:38:27 2017 +0000
+
+    Add a full_title helper
+
+[33mcommit f10d930be6d414cab920a7768a558358e97ab5e2[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Mon Oct 9 13:36:11 2017 +0000
+
+    Complete advanced setup
+
+[33mcommit d1097d74e488db1f40429d7ada342b08adc437c6[m[33m ([m[1;32mstatic-pages[m[33m)[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Mon Oct 9 13:20:03 2017 +0000
+
+    Finish static pages
+
+[33mcommit 39dabb61aef62e7adae22be86e9722251854c4a3[m[33m ([m[1;31morigin/static-pages[m[33m)[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Mon Oct 9 12:45:17 2017 +0000
+
+    step334#
+
+[33mcommit 57ecde1f1d702e5b8ebec5503416aeeec35a977f[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Mon Oct 9 06:42:06 2017 +0000
+
+    Add a Static Pages controller
+
+[33mcommit 7b188e673839032047495895446bce863618af66[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Mon Oct 9 06:27:28 2017 +0000
+
+    Add hello
+
+[33mcommit 0afebc0d4559925e14834cdf7d9d4658c2e0205b[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Mon Oct 9 06:22:29 2017 +0000
+
+    Improve the README
+
+[33mcommit 3960b0c1f6d61f3c44c22f7b34416540f6468da7[m
+Author: Yuya Nakano <tns.b2g8n@gmail.com>
+Date:   Mon Oct 9 06:12:47 2017 +0000
+
+    Initialize repository
