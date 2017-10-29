@@ -77,6 +77,14 @@ p {
   }
 }
 
+#menu{
+  color: white;  
+  &:hover {
+    color: red;
+    text-decoration: none;
+  }  
+}
+
 /* footer */
 
 footer {

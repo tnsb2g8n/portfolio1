@@ -72,7 +72,7 @@ test "name should not be too long" do
   
   test "associated microposts should be destroyed" do
     @user.save
-    @user.microposts.create!(content: "Lorem ipsum")
+    @user.microposts.create!(content: "Lorem ipsum",content2: "Lorem ipsum2",content3: "Lorem ipsum3")
     assert_difference 'Micropost.count', -1 do
       @user.destroy
     end

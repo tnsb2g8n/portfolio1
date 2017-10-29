@@ -1,47 +1,65 @@
 orange:
   content: "I just ate an orange!"
+  content2: "I just ate an orange!2"
+  content3: "I just ate an orange!3"  
   created_at: <%= 10.minutes.ago %>
   user: michael
 
 tau_manifesto:
   content: "Check out the @tauday site by @mhartl: http://tauday.com"
+  content2: "Check out the @tauday site by @mhartl: http://tauday.com2"
+  content3: "Check out the @tauday site by @mhartl: http://tauday.com3"
   created_at: <%= 3.years.ago %>
   user: michael
 
 cat_video:
   content: "Sad cats are sad: http://youtu.be/PKffm2uI4dk"
+  content2: "Sad cats are sad: http://youtu.be/PKffm2uI4dk2"
+  content3: "Sad cats are sad: http://youtu.be/PKffm2uI4dk3"  
   created_at: <%= 2.hours.ago %>
   user: michael
 
 most_recent:
   content: "Writing a short test"
+  content2: "Writing a short test2"
+  content3: "Writing a short test3"  
   created_at: <%= Time.zone.now %>
   user: michael
 
 <% 30.times do |n| %>
 micropost_<%= n %>:
   content: <%= Faker::Lorem.sentence(5) %>
+  content2: <%= Faker::Lorem.sentence(5) %>
+  content3: <%= Faker::Lorem.sentence(5) %>  
   created_at: <%= 42.days.ago %>
   user: michael
 <% end %>
 
 ants:
   content: "Oh, is that what you want? Because that's how you get ants!"
+  content2: "Oh, is that what you want? Because that's how you get ants!2"
+  content3: "Oh, is that what you want? Because that's how you get ants!3"  
   created_at: <%= 2.years.ago %>
   user: archer
 
 zone:
   content: "Danger zone!"
+  content2: "Danger zone!2"
+  content3: "Danger zone!3"  
   created_at: <%= 3.days.ago %>
   user: archer
 
 tone:
   content: "I'm sorry. Your words made sense, but your sarcastic tone did not."
+  content2: "I'm sorry. Your words made sense, but your sarcastic tone did not.2"
+  content3: "I'm sorry. Your words made sense, but your sarcastic tone did not.3"  
   created_at: <%= 10.minutes.ago %>
   user: lana
 
 van:
   content: "Dude, this van's, like, rolling probable cause."
+  content2: "Dude, this van's, like, rolling probable cause.2"
+  content3: "Dude, this van's, like, rolling probable cause.3"  
   created_at: <%= 4.hours.ago %>
   user: lana
   
