@@ -1,8 +1,8 @@
 # ユーザー
-User.create!(name:  "Example User",
-             email: "example@railstutorial.org",
-             password:              "foobar",
-             password_confirmation: "foobar",
+User.create!(name:  "yuya nakano",
+             email: "yuya777@gmail.jp",
+             password:              "yuya777",
+             password_confirmation: "yuya777",
              admin:     true,
              activated: true,
              activated_at: Time.zone.now)
@@ -23,7 +23,9 @@ end
 users = User.order(:created_at).take(6)
 50.times do
   content = Faker::Lorem.sentence(5)
-  users.each { |user| user.microposts.create!(content: content) }
+  content2 = Faker::Lorem.sentence(5)
+  content3 = Faker::Lorem.sentence(5)  
+  users.each { |user| user.microposts.create!(content: content,content2: content2,content3: content3) }
 end
 
 # リレーションシップ

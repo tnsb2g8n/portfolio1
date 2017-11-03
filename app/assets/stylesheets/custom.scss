@@ -80,9 +80,14 @@ p {
 #menu{
   color: white;
   &:hover {
-    color: black;
+    color: red;
     text-decoration: none;
+    background-color: #31B404;
   }  
+}
+
+.dropdown-menu{
+  background-color: #31B404;
 }
 
 /* footer */

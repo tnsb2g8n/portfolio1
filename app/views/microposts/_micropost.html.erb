@@ -2,11 +2,11 @@
   <%= link_to gravatar_for(micropost.user, size: 50), micropost.user %>
   <span class="user"><%= link_to micropost.user.name, micropost.user %></span>
   <span class="content">
-    <p><%= "山：" %></p>     
+    <p style="display:inline;"><%= "山の名前　　　　　　：" %></p>
     <%= micropost.content %>
-    <p><%= "主なルート：" %></p>      
+    <br><p style="display:inline;"><%= "主なルート　　　　　：" %></p>      
     <%= micropost.content2 %>
-    <p><%= "山の状況、アドバイス：" %></p>      
+    <br><p style="display:inline;"><%= "山の状況、アドバイス：" %></p>      
     <%= micropost.content3 %>  
     <%= image_tag micropost.picture.url if micropost.picture? %>
   </span>
