@@ -2,7 +2,7 @@
   <%= render 'shared/error_messages', object: f.object %>
   <div class="field">
     <p>・山の名前</p>
-    <%= f.text_area :content, placeholder: "ex...富士山" %>
+    <%= f.text_area :content, :size => "60x10" , placeholder: "ex...富士山" %>
     <p>・主なルート</p>    
     <%= f.text_area :content2, placeholder: "ex...吉田ルート" %> 
     <p>・山の状況、登る人へのアドバイス</p>  
