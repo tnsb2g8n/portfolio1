@@ -20,9 +20,12 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      @user.send_activation_email
-      flash[:info] = "Please check your email to activate your account."
-      redirect_to root_url
+#      @user.send_activation_email
+#      flash[:info] = "Please check your email to activate your account."
+#      redirect_to root_url
+       log_in @user
+       flash[:success] = "YAMA NOWへようこそ!"
+       redirect_to @user
     else
       render 'new'
     end
@@ -49,14 +52,14 @@ class UsersController < ApplicationController
   end
   
   def following
-    @title = "フォロー"
+    @title = "Following"
     @user  = User.find(params[:id])
     @users = @user.following.paginate(page: params[:page])
     render 'show_follow'
   end
 
   def followers
-    @title = "フォロワー"
+    @title = "Followers"
     @user  = User.find(params[:id])
     @users = @user.followers.paginate(page: params[:page])
     render 'show_follow'
